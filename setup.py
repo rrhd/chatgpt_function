@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name="chatgpt-function",
-    version="0.1.1",
+    version="0.1.2",
     description="Wrapper for creating ChatGPT callable functions from docstrings",
     long_description=long_description,
     long_description_content_type='text/markdown',  # This is important!
