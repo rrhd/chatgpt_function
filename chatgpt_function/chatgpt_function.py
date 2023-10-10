@@ -21,7 +21,7 @@ def chatgpt_wrapper(func: callable):
 
     Example:
         from chatgpt_function import chatgpt_wrapper
-        @chatgpt_function
+        @chatgpt_wrapper
          def my_function(my_arg: str) -> str:
              '''This is my function.
 
